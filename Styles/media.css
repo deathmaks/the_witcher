@@ -156,3 +156,8 @@
         width: 70%;
     }
 }
+@media(max-width: 400px){
+	.image-container{
+		left: -100%;
+	}
+}

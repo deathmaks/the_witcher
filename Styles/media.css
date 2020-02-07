@@ -1,0 +1,153 @@
+@media(max-width: 760px)
+{
+    .play
+    {
+        display: none !important;
+    }
+    .play:before{
+    	display: none;
+    }
+    .footer
+    {
+        flex-direction: column;
+
+        align-items: flex-start;
+    }
+}
+@media(max-width: 510px)
+{
+    .play
+    {
+        display: none !important;
+    }
+    .play:before{
+    	display: none;
+    }
+    .menu-button
+    {
+        position: absolute;
+        top: 40px;
+        right: 35px;
+
+        display: block;
+
+        width: 30px;
+        height: 2px;
+
+        cursor: pointer;
+
+        border: none;
+        background-color: #fff;
+    }
+    .menu-button:before
+    {
+        position: absolute;
+        top: 0;
+        left: 0;
+
+        display: block;
+
+        width: 30px;
+        height: 2px;
+        margin-top: -7px;
+
+        content: ' ';
+        transition: transform .5s;
+
+        background-color: #fff;
+    }
+    .menu-button:after
+    {
+        position: absolute;
+        top: 0;
+        left: 0;
+
+        display: block;
+
+        width: 30px;
+        height: 2.5px;
+        margin-top: 7px;
+
+        content: ' ';
+        transition: transform .5s;
+
+        background-color: #fff;
+    }
+    .menu-button-active
+    {
+        height: 0;
+    }
+    .menu-button-active:before
+    {
+        margin-top: 0;
+
+        transform: rotate(45deg);
+    }
+    .menu-button-active:after
+    {
+        margin-top: 0;
+
+        transform: rotate(-45deg);
+    }
+    .header
+    {
+        position: absolute;
+        top: 0;
+        right: 0;
+
+        display: none;
+        flex-direction: column;
+
+        width: 250px;
+        padding-bottom: 40px;
+
+        background-color: #9d2929;
+    }
+    .header-active
+    {
+        display: block;
+    }
+    .logo
+    {
+
+        margin-bottom: 25px;
+    }
+    .menu-list
+    {
+        display: flex;
+        flex-direction: column;
+		justify-content: center;
+		margin: auto;
+        order: 2;
+        align-items: center;
+    }
+    .menu-link
+    {
+        margin-right: 0;
+        margin-bottom: 17px;
+    }
+    .social
+    {
+    	display: flex;
+    	justify-content: center;
+        margin-bottom: 22px;
+
+        order: 1;
+    }
+    .social-link:first-child
+    {
+        margin-left: 0;
+    }
+    .main-content
+    {
+        margin-top: 196px;
+    }
+    .main-title
+    {
+        font-size: 56px;
+    }
+    .series
+    {
+        width: 70%;
+    }
+}

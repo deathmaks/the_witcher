@@ -98,10 +98,11 @@
         display: none;
         flex-direction: column;
 
-        width: 150px;
+        width: 200px;
         padding-bottom: 40px;
 
         background-color: #9d2929;
+        border-bottom-left-radius: 50px; 
     }
     .header-active
     {
@@ -111,7 +112,7 @@
     {
 		display: flex;
 		justify-content: center;
-		margin-left: 55px;
+		margin-left: 76px;
         margin-bottom: 25px;
     }
     .menu-list
